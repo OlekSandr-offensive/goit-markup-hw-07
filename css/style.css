@@ -808,6 +808,7 @@ footer .container {
 
 .modal-button:hover,
 .modal-button:focus {
+  fill: var(--akcent-color);
   outline: none;
 }
 
