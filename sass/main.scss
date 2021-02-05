@@ -1,12 +1,3 @@
-/* html {
-  box-sizing: border-box;
-} */
-
-/* *::before,
-*::after {
-  box-sizing: inherit;
-} */
-
 :root {
   --primary-text-color: #757575;
   --tittle-text-color: #212121;
@@ -942,7 +933,7 @@ footer .container {
   border-radius: 4px;
   border-style: none;
   background: var(--akcent-color);
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -1014,7 +1005,7 @@ footer .container {
   height: 50px;
   padding: 10px 28px 10px 29px;
   background: var(--akcent-color);
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
