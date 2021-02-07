@@ -14,7 +14,6 @@ p {
   margin-top: 10px;
 }
 
-/* utilits */
 .list {
   list-style: none;
   padding: 0;
@@ -39,4 +38,12 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
 }
