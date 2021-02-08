@@ -2,16 +2,16 @@
   background: $background-dark-color;
   padding: 200px 0;
   text-align: center;
-}
 
-.hero-tittle {
-  width: 696px;
-  margin: 0 auto 30px;
-  color: $primary-white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  &-tittle {
+    width: 696px;
+    margin: 0 auto 30px;
+    color: $primary-white-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+  }
 }
 
 .overlay {

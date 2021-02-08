@@ -102,16 +102,15 @@ footer .container {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-link:hover, .footer-link:focus {
+  background: #2196f3;
+  outline: none;
+}
+
 .footer-icons {
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-  background: #2196f3;
-  outline: none;
 }
 
 .address-list {
@@ -220,12 +219,11 @@ footer .container {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link.current {
+.site-nav .link .current {
   color: #2196f3;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
 }
 
@@ -288,8 +286,7 @@ footer .container {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-contact .contact-link:hover,
-.site-contact .contact-link:focus {
+.site-contact .contact-link:hover, .site-contact .contact-link:focus {
   color: #2196f3;
 }
 
@@ -299,8 +296,9 @@ footer .container {
   fill: currentColor;
 }
 
-.mail-icon .tel-icon:hover,
-.mail-icon .tel-icon:focus {
+.mail-icon:hover, .mail-icon:focus,
+.tel-icon:hover,
+.tel-icon:focus {
   color: #2196f3;
 }
 
@@ -851,8 +849,7 @@ footer .container {
   cursor: pointer;
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.modal-button:hover, .modal-button:focus {
   fill: #2196f3;
   outline: none;
 }
@@ -935,6 +932,11 @@ footer .container {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input:focus {
+  border: 1px solid #2196f3;
+  outline: transparent;
+}
+
 .textarea {
   height: 120px;
   resize: none;
@@ -968,11 +970,6 @@ footer .container {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-}
-
-.input:focus {
-  border: 1px solid #2196f3;
-  outline: transparent;
 }
 
 .check-box {
@@ -1070,7 +1067,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.by-line-input-input::-webkit-input-placeholder {
+.by-line-input::-webkit-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1083,7 +1080,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.by-line-input-input:-ms-input-placeholder {
+.by-line-input:-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1096,7 +1093,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.by-line-input-input::-ms-input-placeholder {
+.by-line-input::-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1109,7 +1106,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.by-line-input-input::placeholder {
+.by-line-input::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

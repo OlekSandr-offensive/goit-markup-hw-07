@@ -3,10 +3,10 @@
   margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
-}
 
-.site-contact .item + .item {
-  margin-left: 50px;
+  & .item + .item {
+    margin-left: 50px;
+  }
 }
 
 .site-contact .contact-link {
@@ -22,19 +22,20 @@
   display: flex;
   align-items: center;
   transition: 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $akcent-color;
+  }
 }
 
-.site-contact .contact-link:hover,
-.site-contact .contact-link:focus {
-  color: $akcent-color;
-}
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
   fill: currentColor;
-}
 
-.mail-icon .tel-icon:hover,
-.mail-icon .tel-icon:focus {
-  color: $akcent-color;
+  &:hover,
+  &:focus {
+    color: $akcent-color;
+  }
 }

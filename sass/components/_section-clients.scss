@@ -1,24 +1,25 @@
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.clients-title {
-  font-size: 36px;
-  line-height: 1, 17;
-  text-align: center;
-  color: $tittle-text-color;
-  margin-bottom: 50px;
+  &-title {
+    font-size: 36px;
+    line-height: 1, 17;
+    text-align: center;
+    color: $tittle-text-color;
+    margin-bottom: 50px;
+  }
 }
 
 .clients-list {
   display: flex;
   justify-content: center;
+
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.clients-list > li:not(:last-child) {
-  margin-right: 30px;
-}
 .client-icon {
   display: flex;
   justify-content: center;
@@ -37,11 +38,11 @@
   border-radius: 4px;
   color: $border-line-color;
   transition: 250ms $timing-function;
-}
 
-.client-link:hover,
-.client-link:focus {
-  outline: none;
-  border: 1px solid $akcent-color;
-  color: $akcent-color;
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid $akcent-color;
+    color: $akcent-color;
+  }
 }
